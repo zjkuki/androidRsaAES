@@ -48,4 +48,57 @@
         tools:layout_editor_absoluteY="37dp"
         tools:ignore="MissingConstraints"/>
 
+    <Button
+        android:id="@+id/button_generateKeyPari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="生成密钥对"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="37dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:text="Public Key（RSA公钥）"/>
+
+        <EditText
+            android:id="@+id/edtPublicKey"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:text=""
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:text="Private Key（RSA私钥）"/>
+
+        <EditText
+            android:id="@+id/edtPrivateKey"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:text=""
+            />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

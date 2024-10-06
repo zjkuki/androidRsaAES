@@ -56,6 +56,25 @@ public class RSA {
 			"awIhALn6vXwvkEeivYxd4owkk3jFtk6I4TtHeq/1ECY3Z8EBAiEAwDkBws6yR23z" +
 			"ddUCW4bkDKQyyoxQFA0d/YPxK/58HA8CIQCDkU4pn+IUlNc/4dG3nz82rgUqVy8U" +
 			"MQyU4NgFFtjo6g==";
+	/*public static final String serverPrivateKey = "MIIEogIBAAKCAQEAnlcADj35bddSh3ifAWTPHGtovgBAb79RrUG30Tfjir0LxeXPnSG"+
+			"MMY57tSHs5/LMRXAP1LfjPf/x2kpZiXn/c0/0Q3x2zyGn0cuP6H7GvxcbxBXfQ/C0l7gI6hpycUE670Sr7iW57YX5xJg09VfeUZkbRbp13Y"+
+			"8FuUpi64kYAiMaBUlphETJY4Oh2lrI1YHRt6l7I7ZFrk+qBNXCJdt3W0zhLJGV+Lhz42boO1ZEP5KhzQftK2maa/TI926Jy9gVNQlcQWbJx"+
+			"AC4vcORPecDK5JM02FqAWI/PdKMh612eWacV3b0a3G83f6lqPzUknU9kMgtotoZm6avwH6R+X8pWwIDAQABAoIBAAnAzc89cFvx4PKuR+EOmW"+
+			"v5477xsLERcFGt6XQuL0ploFAwJSyGcKZsIouYNjRdXMlu1dLNAZGD7pz7FRkmQMlqDzTe+Z8tnAg3XpBmyrg3j1gciXRGYzawjoADtrE/itv1I"+
+			"hVZEThObIGjEdQGSw/speToJN12XgG5UW7fssZi0/16lWQC4rYFVlDHctSYJPczvjtEQQ+EsaFwTJsgOPbL3EfEct5ImZtsSoOyl5IupUTElzge"+
+			"JAYq6dPFM395OroR1wkrcrezjyR+z1Yur+SS/S6sNdE4N3Gb6LU8wzJN2KxzB5/XWRU7PB0gitqcRuYFjDfseewoJk9OetA+g10CgYEAyx/sLFcR6"+
+			"6e/ixUux+oVHhiKVAKU8//q2SF2AHYBmWdtDK2x4UV7TZTy8Nl+1pfE26cGZSrQo2wRy3Q4aMbX6VROoIliPtMdImJcQWuMBp78LiZoVsK+CIXcAJ"+
+			"Z6EefHXd4qphcGoJn0wHM51Lxal0nB+ccHyLDozvzlz9990wcCgYEAx46mDzcNjYdWx9dwqmgnrhfMvMJK2K08dp4bZt6L9GaVfbPgCRTkGWvEqs7bh"+
+			"dTQwffuvWKrMtLYF/duG7v+kA5lMxEz7qc5a5cMozQm6swYMOXE0ix4el+aJofY8dLn+RwQRywDeOao1hrHYwfNrCVHnI90zu1ArPogcJZSfg0CgYB5"+
+			"WbPt9YKmR8xeGiSdmJJPLZgOgpBciUrTt3LY6acg77ItfeOkUq9MdS0CiN2G9JrOIyXl8MM+rsSeyOseZZT+N7jVnd4M7HEeZqb5CnhYSEkehSGWm7e"+
+			"OPfJmg3+gDNmFkcHnAiCad//Jrc0h8/knIxB42dgjpNUhO+NL4hg4pwKBgB6KeGOvu0VDx0ZCdJ2/3wLH5a+l1KqgqLZGsE7oFGdNI+ffFZSOO/KgCb"+
+			"NSgUpULbbh6QnXBfh7SFMyrQlVljoZ2ecc5OPLeAA9V9PKcYJRxgoFwD+iSrX/16m59Lvd2V7Iqr0ZwVZJhuFtq8I+OX31HqaZVfktWk6e4UQZ3XopA"+
+			"oGAZzEdQEOOy9jPzUkSyiPVinxj8TmEJdp9ptXy7oPivIqsDJLJ55Kh7yX05TDpiPae44qsUMQyn0sfuYp6u29gUta4v++G1fLkCEMPEWh6ePixw1Zx"+
+			"h0lWCdkCIimvO3/PuuOvR2MTKjYk0i9q0aNobIjgxaauL4ojJu/qlOrnoZk=";
+	public static final String serverPublicKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjoZvx/wik20Ux4ctGDIkl3O"+
+			"h2Of9hVnORrHT0a9oIJgDFLHkBKHKUa3cxJKuhzDd/5p3nFmOQNcEPgISBqtZnqeBOmYAzfL2LZwDTcCJ15MTk8kfH8tB244qq+eGzazR7"+
+			"3j4pU5EZKz84E6PKm1pvADeuwZ0+A3s/xuLguCsJMq8lr8fAaacOUyPIu7JxQJPoQKsUiHBdvMa/QuiWhGnAbK02j63rc6YJPH0/wi1lsS"+
+			"ridXzQLC6FynNvTb1Cya31A61Af+mA4kHHnCaq80UIJFALvz9vKiGlS1M9e+FxGueYAtS63DVfZOpRAwkyPMsZzg1LrJoYTleZFWmxhMIyQIDAQAB";*/
 	public static final String serverPublicKey = "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALWKeD74JmlkKVBgI8TQLr4WXINoOEdz" +
 			"cie+Bv7lsLzmnfISJdv6PcvNMnpoB8PR5l9vNxdZa27WpWiu8VMNVgsCAwEAAQ==";
 
